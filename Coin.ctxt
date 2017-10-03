@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Coin()
+comment0.text=\r\n\ Constructor\ Method.\ Called\ when\ new\ Coin()\ is\ executed.\r\n\ Note\:\r\n\ \ \ \ \ \ 1)\ name\ of\ constructor\ is\ EXACTLY\ the\ class\ name\ 'Coin'.\ Case\ sensitive\ \r\n\ \ \ \ \ \ 2)\ there\ is\ no\ return\ type\ in\ the\ header,\ not\ even\ 'void'\r\n
+comment1.params=
+comment1.target=void\ flip()
+comment1.text=\r\n\ Method\ to\ randomly\ generate\ 'heads'\ or\ 'tails'.\r\n\ Simulates\ coin\ flipping.\ \r\n\ Return\ type\ is\ void\ -\ no\ information\ is\ passed\ back.\ \r\n
+comment2.params=
+comment2.target=boolean\ isHeads()
+comment2.text=\r\n\ Method\ to\ evaluate\ face\ of\ a\ coin.\ Returns\ 'true'\ if\ the\ coin\ is\ facing\ heads\ up.\r\n\ @return\ true\ if\ coin\ is\ 'heads',\ false\ if\ coin\ is\ 'tails'\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ coin\ object.\ \r\n\ Every\ class\ you\ write\ should\ have\ a\ toString()\ method.\ \r\n\ @return\ string\ representation\ of\ a\ Coin\ object.\ \r\n
+numComments=4
