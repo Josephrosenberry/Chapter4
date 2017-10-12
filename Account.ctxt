@@ -1,16 +1,23 @@
 #BlueJ class context
 comment0.params=initBal\ owner\ number
 comment0.target=Account(double,\ java.lang.String,\ long)
+comment0.text=\r\n\ Constructor\ --\ initializes\ balance,\ owner,\ and\ account\ number\r\n
 comment1.params=amount
 comment1.target=void\ withdraw(double)
+comment1.text=\r\n\ Checks\ to\ see\ if\ balance\ is\ sufficient\ for\ withdrawal.\r\n\ If\ so,\ decrements\ balance\ by\ amount;\ if\ not,\ prints\ message.\r\n
 comment2.params=amount
 comment2.target=void\ deposit(double)
+comment2.text=\r\n\ Adds\ deposit\ amount\ to\ balance.\r\n
 comment3.params=
 comment3.target=double\ getBalance()
+comment3.text=\r\n\ Returns\ balance.\r\n
 comment4.params=
 comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ \ Returns\ a\ string\ containing\ the\ name,\ account\ number,\ and\ balance.\r\n
 comment5.params=
 comment5.target=void\ chargeFee()
+comment5.text=\r\n\ Deducts\ $10\ service\ fee\r\n
 comment6.params=newName
 comment6.target=void\ changeName(java.lang.String)
+comment6.text=\r\n\ Changes\ the\ name\ on\ the\ account\ \r\n
 numComments=7
