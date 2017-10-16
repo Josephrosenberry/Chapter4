@@ -10,21 +10,10 @@ public class Student
         name = studentName;
     }
     //-----------------------------------------------
-    //inputGrades: prompt for and read in student's grades for test1 and test2.
-    //Use name in prompts, e.g., "Enter's Joe's score for test1".
-    //-----------------------------------------------
-    public void inputGrades()
-    {
-        System.out.println("Enter Joe's score for test1: ");
-        test1 = scan.nextInt();//add body of inputGrades
-        System.out.println("Enter Joe's score for test2: ");
-        test2 = scan.nextInt();
-    }
-    //-----------------------------------------------
     //getAverage: compute and return the student's test average
     //-----------------------------------------------
     //add header for getAverage
-    public double getAverage()
+    public double getAverage(int test1, int test2)
     {
         average =   (double) (test1 + test2 ) /2; //add body of getAverage
         return average;

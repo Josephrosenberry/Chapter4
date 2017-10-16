@@ -47,16 +47,16 @@ public class Coin
      * Every class you write should have a toString() method. 
      * @return string representation of a Coin object. 
      */
- 
+
     public String toString()
     {
         String faceName;    //Local variable, only exists in method
-                            //Will be deleted when method is done executing.
-                            //If you don't put a modifier, it defaults to public. 
+        //Will be deleted when method is done executing.
+        //If you don't put a modifier, it defaults to public. 
         if (isHeads())
-        faceName = "Heads";
+            faceName = "Heads";
         else
-        faceName = "Tails";
+            faceName = "Tails";
         return faceName;
     }
 }
